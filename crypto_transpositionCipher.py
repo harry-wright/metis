@@ -5,7 +5,7 @@ def main():
 
      ciphertext = encryptMessage(myKey, myMessage)
 
-     # Shows end of output
+     # Shows output in tags
      print('<output>' + ciphertext + '</output>')
 
 def encryptMessage(key, message):
